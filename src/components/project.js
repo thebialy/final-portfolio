@@ -40,7 +40,7 @@ const Projects = ({props}) => {
                     img={Project3}
                     alt={"Project3"}
                     about={"A group project using react to create a frontend and backend. The application is to help get people prepared to enter a coding bootcamp."}
-                    skills={"React,  "}
+                    skills={"React, CSS, HTML"}
                 />
             </div>
             <div className="item" id="couch-tour">
