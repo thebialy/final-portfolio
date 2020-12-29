@@ -43,26 +43,26 @@ const Projects = ({props}) => {
                     skills={"React,  "}
                 />
             </div>
-            <div className="item" id="askBill">
+            <div className="item" id="couch-tour">
                 <ProjectTemplate
-                    name={"Ask Bill"}
-                    git={"https://github.com/thebialy/Ask-Bill"}
+                    name={"Couch Tour"}
+                    git={""}
                     live={"https://musing-sammet-88a7d5.netlify.app/dashboard"}
                     img={Project4}
                     alt={"Project4"}
-                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
-                    skills={"JS,Jquery,HTML,CSS"}
+                    about={"A full stack application that allows users to login and create a profile to organize all the livestream concert events they have coming up."}
+                    skills={"Ruby on Rails, React, Heroku, Netlify"}
                 />
             </div>
-            <div className="item" id="askBill">
+            <div className="item" id="console-log">
                 <ProjectTemplate
-                    name={"Ask Bill"}
-                    git={"https://github.com/thebialy/Ask-Bill"}
+                    name={"console.log"}
+                    git={"https://github.com/thebialy/consolelog-final-project"}
                     live={"https://consolelog-capstone-project.vercel.app/"}
                     img={FinalProject}
                     alt={"FinalProject"}
                     about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
-                    skills={"JS,Jquery,HTML,CSS"}
+                    skills={"React, Nhost, PostgreSQL, Hasura, NextJS, GraphQL, Apollo and TailwindCSS"}
                 />
             </div>
         </div>

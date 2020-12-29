@@ -1,222 +1,224 @@
-.aboutMe{ 
-    background-color: white;
-    color: black;
-    height: fit-content;
-    width: 1000px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif;
 }
-  .mePicture{
-    padding-left: 15px;
-    padding-top: 35px;
-    height: 300px;
-    border-radius: 30%;
-    margin-right: 50px;
-    float: left;
-  }
+.aboutMe{ 
+  background-color: white;
+  color: black;
+  height: fit-content;
+  width: 1000px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mePicture{
+  padding-left: 15px;
+  padding-top: 35px;
+  height: 300px;
+  border-radius: 30%;
+  margin-right: 50px;
+  float: left;
+}
 
 
-  #hero{
-      color: white;
-    padding-top: 10px;
-    margin:auto;
-    border-radius: 10px;
-    background-image: url("https://us.123rf.com/450wm/peshkov/peshkov1506/peshkov150600008/41023430-blank-black-diary-and-accessories.jpg?ver=6");
-    background-repeat: no-repeat;
-    background-size:cover;
+#hero{
+  padding-top: 10px;
+  margin:auto;
+  border-radius: 10px;
+  color: black;
+  border: 10px solid black;
+  background-color: #304A53;
+  background-repeat: no-repeat;
+  background-size:cover;
   font-family: 'Open Sans', sans-serif;
   height: 400px;
-  width: 1000px;
-  }
-  
-  .techSkills{
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: -15px;
-  }
-  /* .Skills:hover{
-      color: white;
-  } */
-  .topNav{
-    background-color:black;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right:60px;
-    margin-bottom: 30px;
-  }
-  .topNav a{
-    padding-bottom: 10px;
-    color:white;
-    margin-left: 30px;
-    font-size: 18px;
-    text-decoration: none;
-    padding-top: 10px;
-  
-  
-  }
-  
-  a.topLinks
-  {
-      position: relative;
-  }
-  
-  a.topLinks:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: whitesmoke;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out;
-  }
-  a.topLinks:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
-  }
-  
-  .projectTitle{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .projectsContainer{
-    margin-top: 10px;
-    margin-right: 10%;
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    text-align: center;
-  }
-  
-  
-  .projectsContainer img {
-    margin-top: -400px;
-    float: left;
-    width: 30%;
-  }
-  
-  .projectsContainer .item {
-   
-    background-color: black;
-    border-radius: 5px;
-    margin-bottom: 40px;
-  }
-  
-  .item{
-    padding:20px;
+  width: 65%;
+  text-align: center;
+}
+
+.techSkills{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: -15px;
+}
+/* .Skills:hover{
     color: white;
-    border: 5px solid white;
-  
-  }
-  .projectsContainer a {
-    text-shadow: #000 0px 0px 3px;
-    padding: 6px;
-    border-radius: 5px;
-    border: 1px solid white;
-    text-decoration: none;
-    color: whitesmoke;
-  }
-  
-  .projectsContainer a:hover {
-    background-color: white;
-  }
-  .projectsContainer h3 {
-    margin: 30px;
-  }
-  
-  
-  
-  .wholePage{
-    font-family: 'Open Sans', sans-serif;
-    /* background-color: #bab2b5; */
-    background-color: rgba(34, 49, 63);
-    margin: -15px;
-    /* margin-bottom: 25px; */
-    max-height: fit-content;
-    /* min-height: 1000vh; */
-  }
-  
-  .title{
-  margin-top: 100px;
-  }
-  
-  .CardsRow{
-    /* padding: 10px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-left: 20px;
-  }
-  .container {
-    margin: 10px;
+} */
+.topNav{
+  background-color:black;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right:60px;
+  margin-bottom: 30px;
+}
+
+.topNav a{
+  padding-bottom: 10px;
+  color:white;
+  margin-left: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+a.topLinks{
     position: relative;
-    width: 30%;
-  }
+}
+
+a.topLinks:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: whitesmoke;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.topLinks:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.projectTitle{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projectsContainer{
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
+}
+
+.projectsContainer img {
+  width: 50%;
+}
+
+.projectsContainer .item {
+  background-color: #304A53;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.item{
+  padding:20px;
+  color: black;
+  border: 10px solid black;
+}
+
+.projectsContainer a {
+  padding: 6px;
+  border-radius: 5px;
+  border: 5px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.projectsContainer a:hover {
+  background-color: white;
+}
+
+.projectsContainer h3 {
+  margin: 30px;
+}
+
+.project-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.wholePage{
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1547149600-a6cdf8fce60c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
+  margin: -15px;
+  max-height: fit-content;
+}
+
+/* .CardsRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 20px;
+} */
+.container {
+  margin: 10px;
+  position: relative;
+  width: 30%;
+}
+
+/* .image {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: gray;
+}
+
+.container:hover .overlay {
+  opacity: .5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cardsTitle{
   
-  /* .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: gray;
-  }
-  
-  .container:hover .overlay {
-    opacity: .5;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .cardsTitle{
-    
-    text-align: center;
-  }
-  
-  .contactMeContainer{
-    max-height: min-content;
-    background-color: black;
-    border: 1px solid white;
-    padding: 10px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-  
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  #main-content{
-    padding-bottom: 20px;
-  }
+  text-align: center;
+}
+
+.contactMeContainer{
+  max-height: min-content;
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main-content{
+  padding-bottom: 20px;
+}
+
+.div-btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
