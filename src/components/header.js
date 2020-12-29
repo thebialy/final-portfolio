@@ -1,33 +1,24 @@
-import React from "react"
 import { Link } from "gatsby"
-import styled from "styled-components"
+import PropTypes from "prop-types"
+import React from "react"
 
-const StyledHeader = styled.header`
-  width: 100%;
-  max-width: 62.5rem;
-  height: 6.25rem;
-  margin: 0 auto;
-  padding: 0 2.5rem;
-  background: white;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`
+const Header = ({ siteTitle }) => (
+  <header>
+    <nav className="topNav">
+      <a className="topLinks" target= "_blank" href="https://github.com/thebialy"> Github</a>
+      <a className="topLinks" target= "_blank"href="https://www.linkedin.com/in/andrew-tyler-hitchcock/"> Linkedin</a>
+      <a className="topLinks"target= "_blank"href="https://docs.google.com/document/d/e/2PACX-1vRQX0uw6MGwNZ1GZAUOUehb0xEBMEwuEjoAAGctIh2KyhxW0AWFvJ7Bqg3dEwCdZA63mS-es-xMdKkk/pub">Resume</a>
+      <a className="topLinks"href="#contactMeContainer">Contact Me</a>
+    </nav>
+  </header>
+)
 
-const StyledLogo = styled.div`
-  font-size: 2rem;
-  font-weight: 900;
-  color: black;
-`
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
 
-const Header = () => {
-  return (
-    <StyledHeader>
-      <Link to="/" aria-label="home">
-        <StyledLogo>km.</StyledLogo>
-      </Link>
-    </StyledHeader>
-  )
+Header.defaultProps = {
+  siteTitle: `Andrew Hitchcock Portfolio`,
 }
 
 export default Header
