@@ -28,7 +28,7 @@ const Projects = ({props}) => {
                     live={"https://my-louvre.herokuapp.com/"}
                     img={Project2}
                     alt={"Project2"}
-                    about={"A"}
+                    about={"A MERN stack application that allows users to create an account and add pieces of art to their digital collection. Users are able to keep a running total of the combined value of their collection. Another feature allows users to see what their art looks like framed with a CSS generated frame."}
                     skills={"React, Express, MongoDB, Mongoose, NodeJS, HTML, CSS, BootStrap"}
                 />
             </div>
@@ -39,8 +39,8 @@ const Projects = ({props}) => {
                     live={"https://reverent-kalam-023988.netlify.app/"}
                     img={Project3}
                     alt={"Project3"}
-                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
-                    skills={"JS,Jquery,HTML,CSS"}
+                    about={"A group project using react to create a frontend and backend. The application is to help get people prepared to enter a coding bootcamp."}
+                    skills={"React,  "}
                 />
             </div>
             <div className="item" id="askBill">
