@@ -21,7 +21,52 @@ const Projects = ({props}) => {
                     skills={"JS,Jquery,HTML,CSS"}
                 />
             </div>
+            <div className="item" id="myLouvre">
+                <ProjectTemplate
+                    name={"myLouvre"}
+                    git={"https://github.com/thebialy/myLouvre"}
+                    live={"https://my-louvre.herokuapp.com/"}
+                    img={Project2}
+                    alt={"Project2"}
+                    about={"A"}
+                    skills={"React, Express, MongoDB, Mongoose, NodeJS, HTML, CSS, BootStrap"}
+                />
+            </div>
+            <div className="item" id="codex">
+                <ProjectTemplate
+                    name={"The CODEX"}
+                    git={"https://github.com/mikegoolsby/codex_client"}
+                    live={"https://reverent-kalam-023988.netlify.app/"}
+                    img={Project3}
+                    alt={"Project3"}
+                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
+                    skills={"JS,Jquery,HTML,CSS"}
+                />
+            </div>
+            <div className="item" id="askBill">
+                <ProjectTemplate
+                    name={"Ask Bill"}
+                    git={"https://github.com/thebialy/Ask-Bill"}
+                    live={"https://ask-bill-3ctnsup1w.vercel.app/"}
+                    img={Project4}
+                    alt={"Project4"}
+                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
+                    skills={"JS,Jquery,HTML,CSS"}
+                />
+            </div>
+            <div className="item" id="askBill">
+                <ProjectTemplate
+                    name={"Ask Bill"}
+                    git={"https://github.com/thebialy/Ask-Bill"}
+                    live={"https://ask-bill-3ctnsup1w.vercel.app/"}
+                    img={FinalProject}
+                    alt={"FinalProject"}
+                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
+                    skills={"JS,Jquery,HTML,CSS"}
+                />
+            </div>
         </div>
+        
     );
   }
 
