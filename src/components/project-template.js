@@ -6,7 +6,6 @@ class ProjectTemplate extends React.Component {
         return(
         <div className="project-div">
             <h1> {this.props.name} </h1>
-
             <div className="project-info">
                 <div className="img-div">
                     <img
@@ -24,12 +23,12 @@ class ProjectTemplate extends React.Component {
                     Live App
                     </a>
                 </div>
-                <div>
+                <h4>
                     {this.props.about}
-                </div>
+                </h4>
                 <div>
-                    <h4>Skills used:</h4>
-                    {this.props.skills}
+                    <h4>Technologies used: <br/> {this.props.skills}</h4>
+                    
                 </div>
             
             </div>

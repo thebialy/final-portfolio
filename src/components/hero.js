@@ -5,17 +5,17 @@ const Hero = () => {
     return (
       <div id="hero" >
           <h1 className="title">
-            <span>Hello, I'm Andrew Hitchcock</span><br />
+            <span>Hello, I'm Andrew Hitchcock</span>
           </h1>
         
           <h2 className="whatIdo">
-        I'm a Full Stack Software Engineer<br/>Welcome to my portfolio
+        Full Stack Software Engineer
           </h2>
-          <hr/>
+          
           <h3 className="techSkills"> Technical Skills:</h3>
           <h4 className="Skills">
           Javascript | Jquery | HTML5 | Node.JS | CSS3| ES6 | EJS | Mongoose| Bootstrap | Express | React | MongoDB | Heroku | GitHub | Ruby | Rails | SQL | Postgres | Postman | ​Netlify
-          <hr/>
+          
           </h4>
       </div>
     )
