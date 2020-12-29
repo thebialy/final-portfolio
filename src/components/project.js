@@ -47,7 +47,7 @@ const Projects = ({props}) => {
                 <ProjectTemplate
                     name={"Ask Bill"}
                     git={"https://github.com/thebialy/Ask-Bill"}
-                    live={"https://ask-bill-3ctnsup1w.vercel.app/"}
+                    live={"https://musing-sammet-88a7d5.netlify.app/dashboard"}
                     img={Project4}
                     alt={"Project4"}
                     about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
@@ -58,7 +58,7 @@ const Projects = ({props}) => {
                 <ProjectTemplate
                     name={"Ask Bill"}
                     git={"https://github.com/thebialy/Ask-Bill"}
-                    live={"https://ask-bill-3ctnsup1w.vercel.app/"}
+                    live={"https://consolelog-capstone-project.vercel.app/"}
                     img={FinalProject}
                     alt={"FinalProject"}
                     about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
