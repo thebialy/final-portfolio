@@ -47,7 +47,7 @@ const Projects = ({props}) => {
                 <ProjectTemplate
                     name={"Couch Tour"}
                     git={""}
-                    live={"https://musing-sammet-88a7d5.netlify.app/dashboard"}
+                    live={"https://musing-sammet-88a7d5.netlify.app/"}
                     img={Project4}
                     alt={"Project4"}
                     about={"A full stack application that allows users to login and create a profile to organize all the livestream concert events they have coming up."}
