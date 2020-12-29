@@ -27,8 +27,7 @@ class ProjectTemplate extends React.Component {
                     {this.props.about}
                 </h4>
                 <div>
-                    <h4>Technologies used: <br/> {this.props.skills}</h4>
-                    
+                    <h4>Technologies used: <br/> {this.props.skills}</h4>                   
                 </div>
             
             </div>

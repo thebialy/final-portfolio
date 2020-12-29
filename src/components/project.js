@@ -61,7 +61,7 @@ const Projects = ({props}) => {
                     live={"https://consolelog-capstone-project.vercel.app/"}
                     img={FinalProject}
                     alt={"FinalProject"}
-                    about={"A simple application that uses a thrid party API to generate ideas for activities to do during quarantine."}
+                    about={"A reddit style full stack application that allows users to login and make posts. Users have the ability to upvote and downvote posts."}
                     skills={"React, Nhost, PostgreSQL, Hasura, NextJS, GraphQL, Apollo and TailwindCSS"}
                 />
             </div>
