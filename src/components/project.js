@@ -39,8 +39,8 @@ const Projects = ({props}) => {
                     live={"https://reverent-kalam-023988.netlify.app/"}
                     img={Project3}
                     alt={"Project3"}
-                    about={"A group project using react to create a frontend and backend. The application is to help get people prepared to enter a coding bootcamp."}
-                    skills={"React, CSS, HTML"}
+                    about={"A group project using React to create a full stack application. The app helps get people prepared to enter a coding bootcamp. Includes gear recomendations, cheatsheets, interview prep, videos and code games."}
+                    skills={"React, Mongo CSS, HTML, JS, MaterialUI"}
                 />
             </div>
             <div className="item" id="couch-tour">
