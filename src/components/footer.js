@@ -5,7 +5,6 @@ const Footer = () => {
         <footer className="contactMeContainer" id="contactMeContainer">
         <h3>Andrew Hitchcock </h3>
         <h3>Email: thebialy@gmail.com</h3>
-        <h3>Phone : 615-944-9872</h3>
     </footer>
     )
 }
