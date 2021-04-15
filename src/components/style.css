@@ -163,7 +163,6 @@ a.topLinks:hover:before {
 .contactMeContainer{
   max-height: min-content;
   background-color: #304A53;
-  border: 1px solid white;
   padding: 10px;
   text-align: center;
   margin-left: 10%;
