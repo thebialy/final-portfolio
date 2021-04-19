@@ -15,10 +15,10 @@ class ProjectTemplate extends React.Component {
                 </div>
                 <div className="div-btn">
                     <a href={this.props.git}>
-                    GitHub Page
+                        GitHub Page
                     </a>
-                    <a href={this.props.live}>
-                    Live App
+                        <a href={this.props.live}>
+                        Live App
                     </a>
                 </div>
                 <h4>
