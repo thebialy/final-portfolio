@@ -17,8 +17,6 @@ class ProjectTemplate extends React.Component {
                     <a href={this.props.git}>
                     GitHub Page
                     </a>
-                
-                
                     <a href={this.props.live}>
                     Live App
                     </a>
