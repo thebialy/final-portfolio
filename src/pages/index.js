@@ -7,7 +7,7 @@ import Projects from "../components/project"
 import Header from "../components/header"
 
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <Layout>
         <Header/>
