@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
         <Header/>
         <Hero/>
         <Projects/>
-        <Footer />
+        <Footer/>
     </Layout>
   )
 }
