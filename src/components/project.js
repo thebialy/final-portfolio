@@ -4,7 +4,7 @@ import Project2 from "./images/project2.png"
 import Project3 from "./images/project3.png"
 import Project4 from "./images/project4.png"
 import FinalProject from "./images/final-project.png"
-import ProjectTemplate from "./project-template.js";
+import ProjectTemplate from "./project-template.js"
 
 const Projects = ({props}) => {
   
