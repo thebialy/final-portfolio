@@ -9,7 +9,7 @@ const Footer = () => {
             <h3>
                 Email: thebialy@gmail.com
             </h3>
-    </footer>
+        </footer>
     )
 }
 
