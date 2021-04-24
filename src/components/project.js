@@ -6,7 +6,7 @@ import Project4 from "./images/project4.png"
 import FinalProject from "./images/final-project.png"
 import ProjectTemplate from "./project-template.js"
 
-const Projects = ({props}) => {
+const Projects = () => {
   
   return(
         <div className="projectsContainer" id="projectsContainer" >
