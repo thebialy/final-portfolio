@@ -5,7 +5,9 @@ const Hero = () => {
     return (
       <div id="hero" >
           <h1 className="title">
-            <span>Hello, I'm Andrew Hitchcock</span>
+            <span>
+              Hello, I'm Andrew Hitchcock
+            </span>
           </h1>
           <h2 className="whatIdo">
             Full Stack Software Engineer
