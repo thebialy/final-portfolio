@@ -23,7 +23,7 @@
 .topNav{
   background-color:black;
   display: flex;
-  justify-content: left;
+  justify-content: right;
   padding-top: 15px;
   padding-bottom: 10px;
   padding-right:60px;
